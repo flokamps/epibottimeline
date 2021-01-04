@@ -1,0 +1,251 @@
+{
+  "promo": 2025,
+  "semester": 1,
+  "projects": [
+    {
+      "module": "C Graphical Programming",
+      "project": "MyHunter",
+      "start": "2020-11-09",
+      "end": "2020-11-29",
+      "bttf": false
+    },
+    {
+      "module": "C Graphical Programming",
+      "project": "MyScreensaver",
+      "start": "2020-11-09",
+      "end": "2020-11-29",
+      "bttf": false
+    },
+    {
+      "module": "C Graphical Programming",
+      "project": "MyRadar",
+      "start": "2020-11-30",
+      "end": "2021-01-10",
+      "bttf": false
+    },
+    {
+      "module": "C Graphical Programming",
+      "project": "MyRunner",
+      "start": "2020-11-30",
+      "end": "2021-01-10",
+      "bttf": false
+    },
+    {
+      "module": "C Graphical Programming",
+      "project": "Back To The Future - MyScreensaver",
+      "start": "2020-12-14",
+      "end": "2021-01-03",
+      "bttf": true
+    },
+    {
+      "module": "C Graphical Programming",
+      "project": "Back To The Future - MyHunter",
+      "start": "2020-12-14",
+      "end": "2021-01-03",
+      "bttf": true
+    },
+    {
+      "module": "C Graphical Programming",
+      "project": "Back To The Future - MyRadar",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "C Graphical Programming",
+      "project": "Back To The Future - MyRunner",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "BSQ",
+      "start": "2020-11-02",
+      "end": "2020-11-22",
+      "bttf": false
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "Pushswap",
+      "start": "2020-11-23",
+      "end": "2020-12-13",
+      "bttf": false
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "Back To The Future - BSQ",
+      "start": "2020-12-14",
+      "end": "2021-01-03",
+      "bttf": true
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "Back To The Future - Pushswap",
+      "start": "2020-12-14",
+      "end": "2021-01-03",
+      "bttf": true
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "Antman",
+      "start": "2021-01-04",
+      "end": "2021-01-24",
+      "bttf": false
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "Back To The Future - BSQ",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "Back To The Future - Pushswap",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "Elementary Programming in C",
+      "project": "Back To The Future - Antman",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "FR - Écrits Professionnels",
+      "project": "Mail pro",
+      "start": "2020-11-02",
+      "end": "2020-11-15",
+      "bttf": false
+    },
+    {
+      "module": "FR - Écrits Professionnels",
+      "project": "RUSH - Les Seigneurs des mots",
+      "start": "2020-11-16",
+      "end": "2020-11-21",
+      "bttf": false
+    },
+    {
+      "module": "FR - Écrits Professionnels",
+      "project": "Lettre argumentée",
+      "start": "2021-01-11",
+      "end": "2021-01-24",
+      "bttf": false
+    },
+    {
+      "module": "Mathematics",
+      "project": "101pong",
+      "start": "2020-11-02",
+      "end": "2020-11-15",
+      "bttf": false
+    },
+    {
+      "module": "Mathematics",
+      "project": "102architect",
+      "start": "2020-11-16",
+      "end": "2020-11-29",
+      "bttf": false
+    },
+    {
+      "module": "Mathematics",
+      "project": "103cipher",
+      "start": "2020-11-30",
+      "end": "2020-12-13",
+      "bttf": false
+    },
+    {
+      "module": "Mathematics",
+      "project": "104intersection",
+      "start": "2020-12-14",
+      "end": "2021-01-10",
+      "bttf": false
+    },
+    {
+      "module": "Mathematics",
+      "project": "105torus",
+      "start": "2021-01-11",
+      "end": "2021-01-24",
+      "bttf": false
+    },
+    {
+      "module": "Networks and Systems Administration",
+      "project": "MyWeb",
+      "start": "2021-01-11",
+      "end": "2021-01-31",
+      "bttf": false
+    },
+    {
+      "module": "Unix System Programming (Part I)",
+      "project": "my_printf",
+      "start": "2020-11-02",
+      "end": "2020-11-15",
+      "bttf": false
+    },
+    {
+      "module": "Unix System Programming (Part I)",
+      "project": "my_ls",
+      "start": "2020-11-16",
+      "end": "2020-11-29",
+      "bttf": false
+    },
+    {
+      "module": "Unix System Programming (Part I)",
+      "project": "Back To The Future - my_printf",
+      "start": "2020-12-14",
+      "end": "2021-01-03",
+      "bttf": true
+    },
+    {
+      "module": "Unix System Programming (Part I)",
+      "project": "Back To The Future - my_ls",
+      "start": "2020-12-14",
+      "end": "2021-01-03",
+      "bttf": true
+    },
+    {
+      "module": "Unix System Programming (Part I)",
+      "project": "Back To The Future - my_ls",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "Unix System Programming (Part I)",
+      "project": "Back To The Future - my_printf",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "Unix System Programming (Part II)",
+      "project": "navy",
+      "start": "2020-11-30",
+      "end": "2020-12-20",
+      "bttf": false
+    },
+    {
+      "module": "Unix System Programming (Part II)",
+      "project": "minishell 1",
+      "start": "2021-01-11",
+      "end": "2021-01-31",
+      "bttf": false
+    },
+    {
+      "module": "Unix System Programming (Part II)",
+      "project": "Back To The Future - navy",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    },
+    {
+      "module": "Unix System Programming (Part II)",
+      "project": "Back To The Future - minishell1",
+      "start": "2021-02-01",
+      "end": "2021-02-14",
+      "bttf": true
+    }
+  ]
+}

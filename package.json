@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "lowdb": "^1.0.0",
+    "moment": "^2.29.1",
+    "request": "^2.88.2"
   }
 }

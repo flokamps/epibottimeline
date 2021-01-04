@@ -4,6 +4,13 @@ client.commands = new Discord.Collection();
 const fs = require('fs');
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 const { discordToken, discordPrefix } = require('./config.json');
+const { getTimeline } = require('./utils/getTimeline');
+const low = require('lowdb');
+const FileSync = require('lowdb/adapters/FileSync');
+
+const adapter = new FileSync('./utils/time.json');
+const timeline = low(adapter);
+const moment = require('moment');
 
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`);
@@ -13,6 +20,15 @@ for (const file of commandFiles) {
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
+
+getTimeline();
+
+setInterval(() => {
+    let actual = moment().format();
+    let fetchTime = moment(timeline.get('fetchTime').value());
+    if (moment(actual).isAfter(fetchTime.add(1, 'days')))
+        getTimeline();
+}, 3000);
 
 client.on('message', message => {
     if (!message.content.startsWith(discordPrefix) || message.author.bot) return;
