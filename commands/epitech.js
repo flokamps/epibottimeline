@@ -1,15 +1,19 @@
-let timeline = require('../utils/timeline.json');
 const moment = require('moment');
 const Discord = require('discord.js');
+const low = require('lowdb')
+const FileSync = require('lowdb/adapters/FileSync')
+
+const adapter = new FileSync('utils/timeline.json')
+const db = low(adapter)
 
 module.exports = {
 	name: 'epitech',
 	description: 'Get all beginning projects for the next month',
 	execute(message, args) {
+        db.read()
         let timeLineEmbed = new Discord.MessageEmbed();
         timeLineEmbed.setTitle("Next month");
-        delete require.cache[require.resolve('../utils/timeline.json')]
-        timeLine = require("../utils/timeline.json");
+        let timeline = db.value();
         let i = 0;
 		timeline.projects.forEach(element => {
             let actual = moment();

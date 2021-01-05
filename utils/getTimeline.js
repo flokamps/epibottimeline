@@ -1,13 +1,19 @@
 let request = require('request');
 const fs = require('fs');
 const moment = require('moment');
-const config = require('../config.json');
+const low = require('lowdb')
+const FileSync = require('lowdb/adapters/FileSync')
+
+const adapter = new FileSync('config.json')
+const db = low(adapter)
 
 module.exports = {
   getTimeline: () => {
+    db.read()
+    let year = db.get('EpitechYear').value();
     let options = {
       'method': 'GET',
-      'url': `https://gitlab.com/epi-codes/Epitech-2023-Timeline/-/raw/master/data/timeline-${config.EpitechYear}.json`,
+      'url': `https://gitlab.com/epi-codes/Epitech-2023-Timeline/-/raw/master/data/timeline-${year}.json`,
       'headers': {}
     };
     request(options, function (error, response) {
