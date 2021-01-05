@@ -1,0 +1,6 @@
+{
+    "discordToken": "Your Discord Token",
+    "discordPrefix": "!",
+    "discordChannel": "The Discord channel's name you want to monitor projects",
+    "EpitechYear": "Your Epitech promo year (for example 2025)"
+}
