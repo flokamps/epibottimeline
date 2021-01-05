@@ -11,7 +11,6 @@ const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('./utils/time.json');
 const timeline = low(adapter);
 const moment = require('moment');
-const { cpuUsage } = require('process');
 const adapter2 = new FileSync('./utils/timeline.json');
 const db = low(adapter2);
 let timeLineRaw = require('./utils/timeline.json');
@@ -25,14 +24,17 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
-getTimeline();
+let actual = moment().format();
+let fetchTime = moment(timeline.get('fetchTime').value());
+if (moment(actual).isAfter(fetchTime.add(1, 'days')))
+    getTimeline();
 
 setInterval(() => {
     db.read();
-    delete require.cache[require.resolve('./utils/timeline.json')]   // Deleting loaded module
+    delete require.cache[require.resolve('./utils/timeline.json')]
     timeLineRaw = require("./utils/timeline.json");
-    let actual = moment().format();
-    let fetchTime = moment(timeline.get('fetchTime').value());
+    actual = moment().format();
+    fetchTime = moment(timeline.get('fetchTime').value());
     const channel = client.channels.cache.find(channel => channel.name === discordChannel);
     if (moment(actual).isAfter(fetchTime.add(1, 'days')))
         getTimeline();

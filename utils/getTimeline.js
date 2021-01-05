@@ -1,12 +1,13 @@
 let request = require('request');
 const fs = require('fs');
 const moment = require('moment');
+const config = require('../config.json');
 
 module.exports = {
   getTimeline: () => {
     let options = {
       'method': 'GET',
-      'url': 'https://gitlab.com/epi-codes/Epitech-2023-Timeline/-/raw/master/data/timeline-2025.json',
+      'url': `https://gitlab.com/epi-codes/Epitech-2023-Timeline/-/raw/master/data/timeline-${config.EpitechYear}.json`,
       'headers': {}
     };
     request(options, function (error, response) {
