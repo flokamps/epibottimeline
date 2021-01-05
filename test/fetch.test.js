@@ -16,7 +16,7 @@ describe("Integration test", function() {
             time1 = time1.toString();
             let actual = moment().subtract(1, 'seconds').toDate();
             actual = actual.toString();
-            assert.strictEqual(time1, actual);
+            assert.strictEqual(time1.substring(0, 21), actual.substring(0, 21));
         }, 1000);
     });
 });
