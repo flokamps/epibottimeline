@@ -8,7 +8,7 @@ git clone https://github.com/RootMestudy/epibottimeline
 ```
 mv config.json.example config.json
 ```
-Replace diffrents informations on the JSON file:
+Replace differents informations on the JSON file:
 ```json
 {
     "discordToken": "qhzdoiqzhddhOPZHDMDQw.Xe_T9A.7OKTdhzIZANdcsVup-UmrKna9EYM3A",
