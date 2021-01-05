@@ -43,3 +43,6 @@ Reload projects with the ```fetch``` command
 ![Fetch command](https://i.imgur.com/I0SGz0A.png)
 
 (Auto reload every 24h)
+
+## Contributors
+Feel free to contribute to this project by pull request!
