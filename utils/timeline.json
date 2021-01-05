@@ -1,328 +1,265 @@
 {
-  "promo": 2023,
-  "semester": 5,
+  "promo": 2024,
+  "semester": 2,
   "projects": [
     {
-      "module": "Advanced C++ - Babel",
-      "project": "Babel",
-      "start": "2020-09-14",
-      "end": "2020-10-11",
+      "module": "B2 - Binary Security",
+      "project": "Call For Papers",
+      "start": "2020-04-13",
+      "end": "2020-04-29",
       "bttf": false
     },
     {
-      "module": "Advanced C++ - Babel",
-      "project": "BTTF - Babel",
-      "start": "2020-11-02",
-      "end": "2020-11-08",
+      "module": "B2 - Binary Security",
+      "project": "NOOB",
+      "start": "2020-05-04",
+      "end": "2020-05-17",
+      "bttf": false
+    },
+    {
+      "module": "B2 - C Graphical Programming",
+      "project": "MyDefender",
+      "start": "2020-02-17",
+      "end": "2020-03-15",
+      "bttf": false
+    },
+    {
+      "module": "B2 - C Graphical Programming",
+      "project": "MyWorld",
+      "start": "2020-02-17",
+      "end": "2020-03-15",
+      "bttf": false
+    },
+    {
+      "module": "B2 - C Graphical Programming",
+      "project": "MyRPG",
+      "start": "2020-03-16",
+      "end": "2020-05-03",
+      "bttf": false
+    },
+    {
+      "module": "B2 - C Graphical Programming",
+      "project": "Back To The Future - MyWorld",
+      "start": "2020-04-13",
+      "end": "2020-04-19",
       "bttf": true
     },
     {
-      "module": "Advanced C++ - Babel",
-      "project": "BTTF 2 - Babel",
-      "start": "2020-12-14",
-      "end": "2021-01-03",
+      "module": "B2 - C Graphical Programming",
+      "project": "Back To The Future - MyDefender",
+      "start": "2020-04-13",
+      "end": "2020-04-19",
       "bttf": true
     },
     {
-      "module": "Advanced C++ - R-Type",
-      "project": "R-Type",
-      "start": "2020-10-19",
-      "end": "2020-11-15",
-      "bttf": false
-    },
-    {
-      "module": "Advanced C++ - R-Type",
-      "project": "BTTF - R-Type",
-      "start": "2020-12-14",
-      "end": "2021-01-03",
+      "module": "B2 - C Graphical Programming",
+      "project": "Back To The Future - MyWorld",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
       "bttf": true
     },
     {
-      "module": "AppDev - Dashboard",
-      "project": "Dashboard",
-      "start": "2020-11-02",
-      "end": "2020-11-29",
-      "bttf": false
-    },
-    {
-      "module": "AppDev - Dashboard",
-      "project": "BTTF - Dashboard",
-      "start": "2020-12-14",
-      "end": "2021-01-03",
+      "module": "B2 - C Graphical Programming",
+      "project": "Back To The Future - MyDefender",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
       "bttf": true
     },
     {
-      "module": "AppDev - Epicture",
-      "project": "Epicture",
-      "start": "2020-09-28",
-      "end": "2020-10-25",
+      "module": "B2 - Elementary programming in C (Part I)",
+      "project": "Dante's star",
+      "start": "2020-03-02",
+      "end": "2020-03-22",
       "bttf": false
     },
     {
-      "module": "AppDev - Epicture",
-      "project": "BTTF - Epicture",
-      "start": "2020-11-02",
-      "end": "2020-11-08",
+      "module": "B2 - Elementary programming in C (Part I)",
+      "project": "Lem-in",
+      "start": "2020-03-23",
+      "end": "2020-04-19",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Elementary programming in C (Part I)",
+      "project": "Back To The Future - Dante's star",
+      "start": "2020-04-13",
+      "end": "2020-04-19",
       "bttf": true
     },
     {
-      "module": "AppDev - Epicture",
-      "project": "BTTF 2 - Epicture",
-      "start": "2020-12-14",
-      "end": "2021-01-03",
+      "module": "B2 - Elementary programming in C (Part I)",
+      "project": "Back To The Future - Dante's star",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
       "bttf": true
     },
     {
-      "module": "Artificial Intelligence",
-      "project": "Gomoku",
-      "start": "2021-01-25",
-      "end": "2021-02-21",
-      "bttf": false
-    },
-    {
-      "module": "Artificial Intelligence",
-      "project": "BTTF - Gomoku",
-      "start": "2021-03-01",
-      "end": "2021-03-07",
+      "module": "B2 - Elementary programming in C (Part I)",
+      "project": "Back To The Future - Lem-in",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
       "bttf": true
     },
     {
-      "module": "DevOps",
-      "project": "Popeye",
-      "start": "2020-09-14",
-      "end": "2020-10-04",
+      "module": "B2 - Elementary programming in C (Part II)",
+      "project": "Corewar",
+      "start": "2020-04-20",
+      "end": "2020-05-17",
       "bttf": false
     },
     {
-      "module": "DevOps",
-      "project": "my_marvin",
-      "start": "2020-10-05",
-      "end": "2020-10-25",
+      "module": "B2 - FR - Écrits professionnels",
+      "project": "Le mode d'emploi : prendre le lecteur par la main",
+      "start": "2020-01-27",
+      "end": "2020-02-16",
       "bttf": false
     },
     {
-      "module": "DevOps",
-      "project": "Bernstein",
-      "start": "2020-10-26",
-      "end": "2020-11-15",
+      "module": "B2 - FR - Écrits professionnels",
+      "project": "Faire préciser",
+      "start": "2020-02-24",
+      "end": "2020-03-08",
       "bttf": false
     },
     {
-      "module": "Functional Prog - evalExpr",
-      "project": "Functional EvalExpr",
-      "start": "2020-09-28",
-      "end": "2020-10-18",
+      "module": "B2 - FR - Écrits professionnels",
+      "project": "La lettre de vente : informer, argumenter, valoriser",
+      "start": "2020-03-16",
+      "end": "2020-04-12",
       "bttf": false
     },
     {
-      "module": "Functional Prog - evalExpr",
-      "project": "BTTF - functional evalExpr",
-      "start": "2020-11-02",
-      "end": "2020-11-08",
+      "module": "B2 - Introduction to A.I.",
+      "project": "Need4Stek",
+      "start": "2020-04-06",
+      "end": "2020-05-10",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Introduction to A.I.",
+      "project": "Back To The Future - Need4Stek",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
       "bttf": true
     },
     {
-      "module": "Functional Prog - evalExpr",
-      "project": "BTTF 2 - functional evalExpr",
-      "start": "2020-12-14",
-      "end": "2021-01-03",
+      "module": "B2 - Introduction to Web Development",
+      "project": "EPyTodo",
+      "start": "2020-03-16",
+      "end": "2020-04-12",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Introduction to Web Development",
+      "project": "Back To The Future - EPyTodo",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
       "bttf": true
     },
     {
-      "module": "Functional Prog - HAL",
-      "project": "HAL",
-      "start": "2020-10-26",
-      "end": "2020-11-22",
+      "module": "B2 - Mathematics",
+      "project": "106bombyx",
+      "start": "2020-02-17",
+      "end": "2020-03-01",
       "bttf": false
     },
     {
-      "module": "Functional Prog - HAL",
-      "project": "BTTF - HAL",
-      "start": "2020-12-14",
-      "end": "2021-01-03",
+      "module": "B2 - Mathematics",
+      "project": "107transfer",
+      "start": "2020-03-02",
+      "end": "2020-03-15",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Mathematics",
+      "project": "108trigo",
+      "start": "2020-03-16",
+      "end": "2020-03-29",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Mathematics",
+      "project": "109titration",
+      "start": "2020-03-30",
+      "end": "2020-04-12",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Mathematics",
+      "project": "110borwein",
+      "start": "2020-04-13",
+      "end": "2020-04-26",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Networks and Systems Administration",
+      "project": "MyWeb",
+      "start": "2020-02-24",
+      "end": "2020-03-22",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Shell Programming",
+      "project": "MiniShell 2",
+      "start": "2020-03-30",
+      "end": "2020-04-26",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Shell Programming",
+      "project": "42sh",
+      "start": "2020-04-27",
+      "end": "2020-05-24",
+      "bttf": false
+    },
+    {
+      "module": "B2 - Shell Programming",
+      "project": "Back To The Future - MiniShell 2",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
       "bttf": true
     },
     {
-      "module": "Innov. - Improve & Structure",
-      "project": "Project groups",
-      "start": "2020-09-07",
-      "end": "2020-11-29",
+      "module": "B2 - Unix System programming",
+      "project": "Navy",
+      "start": "2020-02-17",
+      "end": "2020-03-08",
       "bttf": false
     },
     {
-      "module": "Innov. - Make & Drive",
-      "project": "EIP Project",
-      "start": "2020-11-16",
-      "end": "2021-02-17",
+      "module": "B2 - Unix System programming",
+      "project": "Tetris",
+      "start": "2020-03-09",
+      "end": "2020-03-29",
       "bttf": false
     },
     {
-      "module": "Innov. - Moonshot",
-      "project": "#TOGETHER",
-      "start": "2020-08-31",
-      "end": "2020-09-01",
-      "bttf": false
-    },
-    {
-      "module": "Innov. - Moonshot",
-      "project": "#CLIMATE",
-      "start": "2020-09-01",
-      "end": "2020-09-02",
-      "bttf": false
-    },
-    {
-      "module": "Innov. - Moonshot",
-      "project": "#LIFE",
-      "start": "2020-09-02",
-      "end": "2020-09-03",
-      "bttf": false
-    },
-    {
-      "module": "Innov. - Moonshot",
-      "project": "#WORK",
-      "start": "2020-09-03",
-      "end": "2020-09-04",
-      "bttf": false
-    },
-    {
-      "module": "Innov. - Moonshot",
-      "project": "Hack'InTrack",
-      "start": "2020-09-04",
-      "end": "2020-09-06",
-      "bttf": false
-    },
-    {
-      "module": "Innov. - Moonshot",
-      "project": "Moonshot Solution",
-      "start": "2020-09-07",
-      "end": "2020-09-10",
-      "bttf": false
-    },
-    {
-      "module": "EIP Validation",
-      "project": "EIP - Subject choice",
-      "start": "2020-08-31",
-      "end": "2021-01-16",
-      "bttf": false
-    },
-    {
-      "module": "FR - Écrits Professionnels",
-      "project": "Avocat du diable",
-      "start": "2020-09-20",
-      "end": "2020-10-04",
-      "bttf": false
-    },
-    {
-      "module": "FR - Écrits Professionnels",
-      "project": "3 emails",
-      "start": "2020-10-11",
-      "end": "2020-10-25",
-      "bttf": false
-    },
-    {
-      "module": "FR - Écrits Professionnels",
-      "project": "Mémo professionnel",
-      "start": "2020-10-26",
-      "end": "2020-11-15",
-      "bttf": false
-    },
-    {
-      "module": "FR - Écrits Professionnels",
-      "project": "Informer: Le magazine du geek",
-      "start": "2020-11-16",
-      "end": "2021-01-10",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "301dannon",
-      "start": "2020-09-14",
-      "end": "2020-09-27",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "302separation",
-      "start": "2020-09-28",
-      "end": "2020-10-11",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "303make",
-      "start": "2020-10-12",
-      "end": "2020-10-25",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "304pacman",
-      "start": "2020-10-26",
-      "end": "2020-11-08",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "305construction",
-      "start": "2020-11-09",
-      "end": "2020-11-22",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "306radiator",
-      "start": "2020-11-23",
-      "end": "2020-12-20",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "307multigrains",
-      "start": "2020-12-21",
-      "end": "2021-01-17",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "308reedpipes",
-      "start": "2021-01-18",
-      "end": "2021-01-31",
-      "bttf": false
-    },
-    {
-      "module": "Mathematics",
-      "project": "309pollution",
-      "start": "2021-02-01",
-      "end": "2021-02-14",
-      "bttf": false
-    },
-    {
-      "module": "Part-Time Job",
-      "project": "Part-time internship",
-      "start": "2020-09-14",
-      "end": "2021-03-07",
-      "bttf": false
-    },
-    {
-      "module": "Security - Cryptography",
-      "project": "Call For Papers - Crypto",
-      "start": "2020-12-14",
-      "end": "2021-01-03",
-      "bttf": false
-    },
-    {
-      "module": "Security - Cryptography",
-      "project": "BTTF - CAESAR",
-      "start": "2021-03-01",
-      "end": "2021-03-07",
+      "module": "B2 - Unix System programming",
+      "project": "Back To The Future - Navy",
+      "start": "2020-04-13",
+      "end": "2020-04-19",
       "bttf": true
     },
     {
-      "module": "Year-End Project",
-      "project": "Year-End Project",
-      "start": "2021-01-11",
-      "end": "2021-03-07",
-      "bttf": false
+      "module": "B2 - Unix System programming",
+      "project": "Back To The Future - Tetris",
+      "start": "2020-04-13",
+      "end": "2020-04-19",
+      "bttf": true
+    },
+    {
+      "module": "B2 - Unix System programming",
+      "project": "Back To The Future - Navy",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
+      "bttf": true
+    },
+    {
+      "module": "B2 - Unix System programming",
+      "project": "Back To The Future - Tetris",
+      "start": "2020-05-25",
+      "end": "2020-05-31",
+      "bttf": true
     }
   ]
 }

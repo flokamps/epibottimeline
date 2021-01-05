@@ -10,13 +10,17 @@ module.exports = {
         timeLineEmbed.setTitle("Next month");
         delete require.cache[require.resolve('../utils/timeline.json')]
         timeLine = require("../utils/timeline.json");
+        let i = 0;
 		timeline.projects.forEach(element => {
             let actual = moment();
-            let startDateOneMonth = moment(element.start).subtract(1, 'month');
             let startDate = moment(element.start);
-            if (actual.isBefore(startDate) && startDate.isBefore(moment(actual).add(1, 'month')) && startDate.isAfter(actual))
+            if (actual.isBefore(startDate) && startDate.isBefore(moment(actual).add(1, 'month')) && startDate.isAfter(actual)) {
                 timeLineEmbed.addField(`${element.module} - ${element.project}`, '```' + `Start registering ${moment(element.start).format("dddd Do MMMM")}\nEnd of project ${moment(element.end).format("dddd Do MMMM")}` + '```');
-            });
+                i++;
+            }
+        });
+        if (i == 0)
+            timeLineEmbed.setDescription("No projects for the next month. have good holidays!");
         message.channel.send(timeLineEmbed);
 	},
 };
