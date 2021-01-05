@@ -8,7 +8,8 @@ const db = low(adapter)
 
 module.exports = {
 	name: 'epitech',
-	description: 'Get all beginning projects for the next month',
+    description: 'Get all beginning projects for the next month',
+    aliases: ['projects', 'project', 'new'],
 	execute(message, args) {
         db.read()
         let timeLineEmbed = new Discord.MessageEmbed();
