@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "mocha": "^8.2.1",
-    "three": "^0.124.0"
+    "three": "^0.125.0"
   }
 }
